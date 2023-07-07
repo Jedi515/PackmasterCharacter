@@ -29,7 +29,7 @@
   },
   "${ModID}:BarrierBeacon": {
     "NAME": "Барьер света",
-    "DESCRIPTION": "{@@}Даёт !B! Защиты. NL Добавляет в руку свою{!Upgrades!|>0=n улучшенную} копию. NL Сжигается."
+    "DESCRIPTION": "{@@}Даёт !B! Защиты. NL Добавляет в руку {!Upgrades!|>0=n улучшенный} *Барьер *света. NL Сжигается."
   },
   "${ModID}:StrikingStrike": {
     "NAME": "Ударный удар",
@@ -45,7 +45,7 @@
   },
   "${ModID}:BrushModalCostChoice": {
     "NAME": "You should never see this",
-    "DESCRIPTION": "{@@}Выберите эту стоимость карт для Находки.",
+    "DESCRIPTION": "Выберите эту стоимость карт для Находки.",
     "EXTENDED_DESCRIPTION" : [
       "Выберите эту (или выше) стоимость карт для Находки."
     ],
