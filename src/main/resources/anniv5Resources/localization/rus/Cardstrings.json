@@ -1,0 +1,27 @@
+{
+  "${ModID}:Strike": {
+    "NAME": "Удар",
+    "DESCRIPTION": "Наносит !D! урона."
+  },
+  "${ModID}:Defend": {
+    "NAME": "Оборона",
+    "DESCRIPTION": "Даёт !B! Защиты."
+  },
+  "${ModID}:Rummage": {
+    "NAME": "Порыться",
+    "DESCRIPTION": "{@@}Наносит !D! урона. NL Вы берёте !${ModID}:m2! карт{@@}{!${ModID}:m2!|@=у|>1=ы} и уменьшаете {@@}{!${ModID}:m2!|@=её|>1=их} стоимость на !M! до конца хода."
+  },
+  "${ModID}:Cardistry": {
+    "NAME": "Кардистр",
+    "DESCRIPTION": "Даёт !B! Защиты. NL Вы кладёте след. разыгранную в этом ходу карту на верх стопки добора."
+  },
+  "${ModID}:ConjurePack": {
+    "NAME": "Вызвать набор",
+    "DESCRIPTION": "{@@}{!Upgrades!|>0=Начальная. NL }Выберите 1 из !M! доступных в этом забеге Наборов. NL Добавьте 2 случ. карты из него в руку в течение след. 5 ходов.",
+    "COMMENTS": ["Innate. NL Choose 1 of !M! Packs available to your run. NL At the start of the next 5 turns, add 2 of its cards to your hand."]
+  },
+  "${ModID}:Vexed": {
+    "NAME": "Досада",
+    "DESCRIPTION": "Неиграбельная. NL stslib:Вживлённая. NL Сжигается, когда вы разыгрываете *Блестящую карту."
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "${ModID}:BasicWave": {
+    "NAME": "Стартовая волна",
+    "DESCRIPTION": "Вы разыгрываете *Оборону и *Удар. NL Считается как ${ModID}:Стартовая карта.",
+    "EXTENDED_DESCRIPTION": [
+      "Вы разыгрываете *Оборону+",
+      " и *Удар+",
+      ". NL Считается как ${ModID}:Стартовая карта."
+      ]
+  },
+  "${ModID}:Simplify": {
+    "NAME": "Упростить",
+    "DESCRIPTION": "Вы берёте ${ModID}:Стартовую карту и Улучшаете её. Может Улучшать неограниченное количество раз.",
+    "UPGRADE_DESCRIPTION": "Вы берёте ${ModID}:Стартовую карту и Улучшаете её !M! раза. Может Улучшать неограниченное количество раз."
+  },
+  "${ModID}:LoseIt": {
+    "NAME": "Брось а то уронишь",
+    "DESCRIPTION": "Добавляет в руку *Порыться. Повышает добор существующих *Порыться на !M! до конца боя. NL Сжигается.",
+    "UPGRADE_DESCRIPTION": "Добавляет в руку *Порыться+. Повышает добор существующих *Порыться на !M! до конца боя. NL Сжигается."
+  },
+  "${ModID}:SimplifiedStrike": {
+    "NAME": "Упрощённый удар",
+    "DESCRIPTION": "Наносит !M! урона за каждую разыгранную в этом бою ${ModID}:Стартовую карту.",
+    "UPGRADE_DESCRIPTION": "${ModID}:Конечная. NL Наносит !M! урона за каждую разыгранную в этом бою ${ModID}:Стартовую карту.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (Наносит !D! урона)"
+    ]
+  },
+  "${ModID}:FamiliarKit": {
+    "NAME": "Знакомый комплект",
+    "DESCRIPTION": "{@@}{!Upgrades!|>0=Начальная. NL }Даёт !M! Силы, !M! Ловкости и !${ModID}:m2! Фокуса. NL При получении добавляет в колоду *Проломить, *Выживание и *Шок.",
+    "COMMENTS": ["Начальная. NL Gain !M! Strength, !M! Dexterity and !${ModID}:m2! Focus. ${ModID}:Pickup: Obtain a *Bash, *Survivor and *Zap."]
+  },
+  "${ModID}:OckhamsRazor": {
+    "NAME": "Бритва Окама",
+    "DESCRIPTION": "Наносит !M! урона ВСЕМ врагам, когда вы разыгрываете ${ModID}:Стартовую карту."
+  },
+  "${ModID}:BackToBasic": {
+    "NAME": "Назад в школу",
+    "DESCRIPTION": "{@@}{!Upgrades!|>0=Оставляется. NL }Вы кладёте выбранную карту из стопки сброса в руку. Сжигается, если вы выбрали не ${ModID}:Стартовую карту.",
+    "COMMENTS": ["Retain. NL Put a card from your discard pile into your hand. If it was not a ${ModID}:Basic card, Exhaust."]
+  },
+  "${ModID}:BasicHit": {
+    "NAME": "Стартовый набор",
+    "DESCRIPTION": "{@@}Добавляет в руку *Удар и улучшает его !M! раз{!M!|1=|>1=а|>5=}. NL Сжигается."
+  },
+  "${ModID}:ConjureDefends": {
+    "NAME": "Призвать оборону",
+    "DESCRIPTION": "{@@}Добавляет в руку *Оборону{!Upgrades!|>0=+} и ${ModID}:Модифицирует её: «Разыгрывается X раз». stslib:Возврат 1. Сжигается.",
+    "COMMENTS": ["Add a *Defend+ to your hand and ${ModID}:Modify it: \"Play this X times\". Refund 1. Exhaust."]
+
+  },
+  "${ModID}:SimpleTrick": {
+    "NAME": "Простой трюк",
+    "DESCRIPTION": "{@@}Добавляет в руку *Кардистр{!Upgrades!|>0=+}. Даёт [E] след. !M! раз{!M!|1=|>1=а|>5=}, когда вы разыгрываете *Кардистр. NL Сжигается.",
+    "COMMENTS": ["Add a *Cardistry+ to your hand. The next !M! times you play one, gain [E] . NL Exhaust."]
+
+  }
+}
