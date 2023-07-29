@@ -1,17 +1,23 @@
 [
   {
-    "PROPER_NAME": "Ruin",
+    "PROPER_NAME": "Гибель",
     "NAMES": [
+      "гибель",
+      "гибели",
       "ruin"
     ],
-    "DESCRIPTION": "The next time a creature with #yRuin takes unblocked attack damage, they lose HP equal to their #yRuin for each buff and debuff they have."
+    "DESCRIPTION": "Отнимает ОЗ у существа равные количеству эффекта за каждый имеющийся у него отриц. и полож. эффект, когда существо получает урон по ОЗ."
   },
   {
-    "PROPER_NAME": "Oblivion",
+    "PROPER_NAME": "Сфера Забвения",
     "NAMES": [
+      "сфера забвения",
+      "сфера_забвения",
+      "сферу_забвения",
+      "сферы_забвения",
       "oblivion"
     ],
-    "DESCRIPTION": "Orb: When evoked, applies #yRuin to the enemy with the most HP. Increases #yRuin applied whenever you discard a card."
+    "DESCRIPTION": "Сфера: Накладывает #yПогибель на врага с наибольшими ОЗ. Повышает наладываемую #yПогибель, когда вы сбрасываете карту."
   },
   {
     "PROPER_NAME": "Manifest",
@@ -45,6 +51,6 @@
       "бодрость",
       "vigor"
     ],
-    "DESCRIPTION": "Повышает урон вашей след. Атаки."
+    "DESCRIPTION": "Повышает урон вашей след. #yАтаки."
   }
 ]

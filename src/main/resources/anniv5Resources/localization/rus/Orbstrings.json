@@ -1,10 +1,10 @@
 {
   "${ModID}:Oblivion": {
-    "NAME": "Oblivion",
+    "NAME": "Забвение",
     "DESCRIPTION": [
-      "#yPassive: Whenever you discard a card, increase this Orb's #yRuin by #b",
-      ". NL #yEvoke: Apply #b",
-      " #yRuin to the enemy with the most HP."
+      "#yПассивно: повышает свою #yГибели на #b",
+      ", когда вы сбрасываете карту. NL #yРазрядка: накладывает #b",
+      " #yГибели на врага с наибольшими ОЗ."
     ]
   }
 }

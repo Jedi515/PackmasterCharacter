@@ -1,29 +1,29 @@
 {
   "${ModID}:BagOfHolding": {
     "NAME": "Сумка хранения",
-    "FLAVOR": "«Невероятно! Похоже, эта сумка соединена с потусторонним пространством! Что будет, если я запрыгну внутрь?» - Ранвид",
+    "FLAVOR": "«Невероятно! Похоже, эта сумка соединена с потусторонним пространством! Что будет, если я запрыгну внутрь?», - Ранвид",
     "DESCRIPTIONS": [
       "Заменяет «",
       "».[] NL Даёт [E] в начале первых Х ходов за каждые #b5 карт в колоде.",
-      "Выдано энергии: {0}",
+      "Энергии выдано: {0}",
       " NL За ход: {0} NL За бой: {1}"
     ]
   },
   "${ModID}:BanishingDecree": {
-    "NAME": "Banishing Decree",
-    "FLAVOR": "Absorb what is useful, reject what is useless and add what is essentially your own.",
+    "NAME": "Приказ отмены",
+    "FLAVOR": "Поглощай полезное, отвергай бесполезное и добавляй по настоящему твоё.",
     "DESCRIPTIONS": [
-      "Upon pickup, choose one of your Packs. Cards from it will no longer appear in card rewards. Then, choose #b1 of #b5 new Packs to replace it with, and obtain #b3 card rewards from that Pack.",
-      "Choose a Pack to banish with ",
-      "Cards from the Pack '",
-      "' will no longer appear in card rewards.",
-      "' will appear in card rewards.",
-      "Choose a Pack to gain with ",
+      "При получении выберите один из имеющихся Наборов, его карты больше не появятся в наградах, затем выберите #b1 из #b5 других Наборов и получите #b3 награды с картами из него.",
+      "Выберите Набор, который хотите убрать с помощью ",
+      "Карты из Набора «",
+      "» больше не появятся в наградах.",
+      "» теперь будут в наградах.",
+      "Выберите Набор, который хотите получить с помощью ",
       "Power!",
       ".",
       ".",
       "Translator note: The 2 dots up here follows the structure 'Choose a Pack to banish with '+'Banishing Decree'+'.' and 'Choose a Pack to gain with '+'Banishing Decree'+'.' respectively. ",
-      "Banished pack: {0} NL Added pack: {1}"
+      "Наборов убрано: {0} NL Наборов добавлено: {1}"
     ]
   },
   "${ModID}:CollectorBadge": {
@@ -33,19 +33,19 @@
       "Даёт [E] при первом разыгрывании карт из #b4 разных Наборов в ходу.",
       " NL NL В этом ходу вы разыграли карты из этих Наборов: ",
       " NL NL Уже сработал в этом ходу. ",
-      "Выдано энергии: {0}",
+      "Энергии выдано: {0}",
       " NL За ход: {0} NL За бой: {1}"
     ]
   },
   "${ModID}:GemOfUnity": {
-    "NAME": "Gem of Unity",
-    "FLAVOR": "In union there is strength.",
+    "NAME": "Камень единства",
+    "FLAVOR": "Сила в единстве.",
     "DESCRIPTIONS": [
-      "Once per combat, after you have played a card from each different Pack available this run, gain #b20 #yBlock, #b1 #yStrength, #b1 #yDexterity, and heal #b5 HP.",
-      "Packs played this combat: ",
-      "Times triggered: {0}",
-      " NL Per combat: {0}",
-      "Packs not yet played: "
+      "Даёт #b20 #yЗащиты, #b1 #yСилы, #b1 #yЛовкости и восполняет #b5 ОЗ, когда вы впервые за бой разыгрываете по карте из каждого доступного в вылазке набора.",
+      "Вы разыграли по карте из Наборов: ",
+      "Раз сработала: {0}",
+      " NL За бой: {0}",
+      "Ещё не тронутые Наборы: "
     ]
   },
   "${ModID}:HandyHaversack": {

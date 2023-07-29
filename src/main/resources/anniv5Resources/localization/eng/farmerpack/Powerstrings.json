@@ -10,7 +10,9 @@
     "NAME": "Supply Chain",
     "DESCRIPTIONS": [
       "At the start of your turn, add #b",
-      " Fertilizer", "s", " to your hand."
+      " #yFertilizer",
+      " #yFertilizers",
+      " to your hand."
     ]
   }
 }
