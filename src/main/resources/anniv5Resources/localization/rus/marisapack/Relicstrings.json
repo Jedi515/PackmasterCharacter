@@ -1,0 +1,9 @@
+{
+  "${ModID}:MiniHakkero": {
+    "NAME": "Мини-Хаккеро",
+    "FLAVOR": "A small elemental furnace, generates enough heat and energy to destroy a mountain.",
+    "DESCRIPTIONS": [
+      "Даёт #b%s #y${ModID}:Заряда в начале вашего хода."
+    ]
+  }
+}

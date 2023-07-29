@@ -1,0 +1,33 @@
+[
+  {
+    "PROPER_NAME": "Усиление",
+    "NAMES": [
+      "усиление",
+      "amplify"
+    ],
+    "DESCRIPTION": "Заплатите доп. энергией за эффект, когда у вас хватает [E] ."
+  },
+  {
+    "PROPER_NAME": "Заряд",
+    "NAMES": [
+      "заряд",
+      "заряда",
+      "charge up"
+    ],
+    "DESCRIPTION": "At #b6 or more stacks, double the damage of the next Attack and lose #b6 stacks."
+  },
+  {
+    "PROPER_NAME": "Flurry",
+    "NAMES": [
+      "flurry"
+    ],
+    "DESCRIPTION": "Specified effect triggers every time you play a card this turn."
+  },
+  {
+    "NAMES": [
+       "WWWWWWWWWWWWWWWWWWW",
+       "WWWWWWWWWWWWWWWWW"
+     ],
+    "DESCRIPTION":"WWWWWWWWWWWWWWWWWWWWW"
+  } // Теперь кейворды Марисы правильны
+]

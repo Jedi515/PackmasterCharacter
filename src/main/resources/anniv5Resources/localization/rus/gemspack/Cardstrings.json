@@ -1,0 +1,52 @@
+{
+  "${ModID}:TempStrengthGem": {
+    "NAME": "Рубин",
+    "DESCRIPTION": "${ModID}:Самоцвет. NL Даёт 2 Временной Силы.",
+    "UPGRADE_DESCRIPTION": "${ModID}:Самоцвет (2 использования). NL Даёт 2 Временной Силы."
+  },
+  "${ModID}:FrostGem": {
+    "NAME": "Аквамарин",
+    "DESCRIPTION": "${ModID}:Самоцвет. NL Заряжает 1 Сферу Льда.",
+    "UPGRADE_DESCRIPTION": "${ModID}:Самоцвет (2 использования). NL Заряжает 1 Сферу Льда."
+  },
+  "${ModID}:LightningGem": {
+    "NAME": "Разбитый самоцвет",
+    "DESCRIPTION": "${ModID}:Самоцвет. NL Заряжает 1 Сферу Молнии.",
+    "UPGRADE_DESCRIPTION": "${ModID}:Самоцвет (2 использования). NL Заряжает 1 Сферу Молнии."
+  },
+  "${ModID}:RetainGem": {
+    "NAME": "Янтарь",
+    "DESCRIPTION": "Unplayable ${ModID}:Самоцвет. NL Добавляет карте «Оставляется».",
+    "UPGRADE_DESCRIPTION": "${ModID}:Самоцвет (2 использования). NL Добавляет карте «Оставляется»."
+  },
+  "${ModID}:DrawGem": {
+    "NAME": "Опал",
+    "DESCRIPTION": "${ModID}:Самоцвет. NL Вы берёте карту.",
+    "UPGRADE_DESCRIPTION": "${ModID}:Самоцвет (2 использования). NL Вы берёте карту."
+  },
+  "${ModID}:EnergyGem": {
+    "NAME": "Цитрин",
+    "DESCRIPTION": "${ModID}:Самоцвет. NL Даёт [E] на след. ход.",
+    "UPGRADE_DESCRIPTION": "${ModID}:Самоцвет (2 использования). NL Даёт [E] на след. ход."
+  },
+  "${ModID}:CleanseGem": {
+    "NAME": "Оникс",
+    "DESCRIPTION": "${ModID}:Самоцвет. NL Уменьшает каждый из ваших отриц. эффектов на 1.",
+    "UPGRADE_DESCRIPTION": "${ModID}:Самоцвет (2 использования). NL Уменьшает каждый из ваших отриц. эффектов на 1."
+  },
+  "${ModID}:DiceGem": {
+    "NAME": "Турмалин",
+    "DESCRIPTION": "${ModID}:Самоцвет. NL \"Roll a ${ModID}:D6\"",
+    "UPGRADE_DESCRIPTION": "${ModID}:Самоцвет (2 использования). NL \"Roll a ${ModID}:D6\""
+  },
+  "${ModID}:OccultGem": {
+    "NAME": "Лазурит",
+    "DESCRIPTION": "Unplayable ${ModID}:Самоцвет. NL \"Card gains ${ModID}:Occult\"",
+    "UPGRADE_DESCRIPTION": "${ModID}:Самоцвет (2 использования). NL \"Card gains ${ModID}:Occult\""
+  },
+  "${ModID}:PersistGem": {
+    "NAME": "Гранат",
+    "DESCRIPTION": "Unplayable ${ModID}:Самоцвет. NL Добавляет карте «stslib:Persist 2».",
+    "UPGRADE_DESCRIPTION": "${ModID}:Самоцвет (2 использования). NL Добавляет карте «stslib:Persist 2»."
+  }
+}

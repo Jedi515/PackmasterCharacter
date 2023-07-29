@@ -1,0 +1,46 @@
+{
+  "${ModID}:MasterSpark": {
+    "NAME": "Мастер-спарк",
+    "DESCRIPTION": "Наносит !D! урона. ${ModID}:Усиление [E] : NL Deal !${ModID}:sd! damage instead."
+  },
+  "${ModID}:RisingStrike": {
+    "NAME": "Rising Strike",
+    "DESCRIPTION": "Наносит !D! урона. NL ${ModID}:Flurry: Даёт !M! ${ModID}:Заряда."
+  },
+  "${ModID}:GalacticHalo": {
+    "NAME": "Galactic Halo",
+    "DESCRIPTION": "Даёт !B! Защиты. NL Даёт !M! ${ModID}:Заряда."
+  },
+  "${ModID}:LuminousStrike": {
+    "NAME": "Luminous Strike",
+    "DESCRIPTION": "Наносит !D! урона. NL ${ModID}:Усиление [E] : Даёт !M! ${ModID}:Заряда."
+  },
+  "${ModID}:ShootingEcho": {
+    "NAME": "Shooting Echo",
+    "DESCRIPTION": "Наносит !D! урона. Exhaust a random card to gain a copy of this. NL Сжигается."
+  },
+  "${ModID}:StardustReverie": {
+    "NAME": "Stardust Reverie",
+    "DESCRIPTION": "Exhaust the next card you play to gain !M! ${ModID}:Charge Up and draw 1 card."
+  },
+  "${ModID}:Inertia": {
+    "NAME": "Oort Cloud",
+    "DESCRIPTION": "Даёт !M! *Ablation. NL ${ModID}:Усиление [E] : Gain !${ModID}:m2! additional *Ablation."
+  },
+  "${ModID}:UltimateShortwave": {
+    "NAME": "Ultimate Shortwave",
+    "DESCRIPTION": "Даёт !M! [E] и !${ModID}:m2! ${ModID}:Заряда. NL ${ModID}:Усиление [E] : Increase both values by 1 this combat."
+  },
+  "${ModID}:DragonMeteor": {
+    "NAME": "Dragon Meteor",
+    "DESCRIPTION": "Наносит !D! урона. Deals !M! additional damage for each card in your exhaust pile."
+  },
+  "${ModID}:EarthlightRay": {
+    "NAME": "Earthlight Ray",
+    "DESCRIPTION": "After you gain ${ModID}:Charge Up, deal damage equal to !M! times its total to ALL enemies."
+  },
+  "${ModID}:Spark": {
+    "NAME": "Искра",
+    "DESCRIPTION": "Наносит !D! урона. ${ModID}:Усиление [E] : NL Даёт !M! ${ModID}:Заряда. NL Сжигается."
+  }
+}

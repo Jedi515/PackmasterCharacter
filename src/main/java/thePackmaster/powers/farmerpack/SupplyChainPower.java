@@ -28,6 +28,11 @@ public class SupplyChainPower extends AbstractPackmasterPower {
     }
 
     public void updateDescription() {
-        this.description = DESCRIPTIONS[0] + this.amount + DESCRIPTIONS[1];
+        this.description = DESCRIPTIONS[0] + this.amount;
+        if (amount > 1) 
+            description += DESCRIPTIONS[2];
+        else
+            description += DESCRIPTIONS[1];
+        description += DESCRIPTIONS[3];
     }
 }

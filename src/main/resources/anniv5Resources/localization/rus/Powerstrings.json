@@ -22,12 +22,12 @@
     ]
   },
   "${ModID}:RuinPower": {
-    "NAME": "Ruin",
+    "NAME": "Гибель",
     "DESCRIPTIONS": [
-      "The next time this enemy takes unblocked attack damage, it loses #b",
-      "The next time you take unblocked attack damage, lose #b",
-      " HP for each buff and debuff it has.",
-      " HP for each buff and debuff you have."
+      "Этот враг потеряет #b",
+      "Отнимает #b",
+      " ОЗ за каждый имеющийся отриц. и полож. эффект, когда получит урон по ОЗ.",
+      " ОЗ за каждый имеющийся отриц. и полож. эффект, когда вы получите урон по ОЗ."
     ]
   }
 }
